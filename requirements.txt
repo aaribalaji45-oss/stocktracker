@@ -1,0 +1,3 @@
+# Requirements for Stock Portfolio Tracker
+# No external dependencies needed.
+# Works with Python 3.8 and above.

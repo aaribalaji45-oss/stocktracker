@@ -73,7 +73,7 @@ if save in ("y", "yes"):
                 investment = qty * price
                 file.write(f"{stock},{qty:.8f},{price:.2f},{investment:.2f}\n")
             file.write(f"TOTAL,,,{total_value:.2f}\n")
-        print(f"✅ Portfolio saved successfully as '{filename}'")
+        print(f" Portfolio saved successfully as '{filename}'")
     except OSError as e:
         print(f" Could not save file: {e}")
 

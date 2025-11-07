@@ -1,0 +1,92 @@
+# 📊 Stock Portfolio Tracker
+
+A simple Python-based **Stock Portfolio Tracker** that calculates your total investment value using hardcoded stock prices.  
+Perfect for beginners learning about **dictionaries, loops, file handling, and user input/output** in Python.
+
+---
+
+## 🚀 Features
+- Add stock symbols and quantities interactively
+- Hardcoded stock price dictionary (can be modified)
+- Calculates and displays total investment
+- Option to save your portfolio as a `.csv` file
+- Input validation and clean output formatting
+
+---
+
+## 🧠 Concepts Used
+- **Dictionaries** — store stock symbols and prices  
+- **Loops** — repeatedly accept user inputs  
+- **Arithmetic operations** — calculate total investment  
+- **File handling** — save output in `.csv` format  
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/stock-portfolio-tracker.git
+   cd stock-portfolio-tracker
+   ```
+
+2. Run the program:
+   ```bash
+   python stock_portfolio_tracker.py
+   ```
+
+3. Follow the on-screen instructions:
+   - Enter stock symbols (e.g., `AAPL`, `TSLA`)
+   - Enter quantity of shares
+   - Type `done` when finished
+   - Choose whether to save the results to a `.csv` file
+
+---
+
+## 🧾 Example Output
+```
+📊 Welcome to the Stock Portfolio Tracker 📊
+Available stocks and their prices:
+  AAPL: $180
+  TSLA: $250
+  GOOGL: $140
+  AMZN: $130
+  MSFT: $330
+
+Enter your stock holdings (type 'done' to finish):
+Enter stock symbol: AAPL
+Enter quantity of AAPL (e.g., 10 or 0.5): 5
+Enter stock symbol: TSLA
+Enter quantity of TSLA (e.g., 10 or 0.5): 2
+Enter stock symbol: done
+
+--- Your Portfolio Summary ---
+AAPL: 5.0000 shares × $180.00 = $900.00
+TSLA: 2.0000 shares × $250.00 = $500.00
+
+💰 Total Investment Value: $1,400.00
+✅ Portfolio saved successfully as 'portfolio_summary.csv'
+```
+
+---
+
+## 🧰 Requirements
+This project uses only Python's built-in libraries — **no external packages required**.
+
+However, you can create a virtual environment (optional):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate   # On Windows
+```
+
+---
+
+## 🧑‍💻 Author
+**Balaji AH**
+
+---
+
+## 📜 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
